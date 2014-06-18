@@ -1,8 +1,8 @@
 msFilterList
-# Version: 201405261320
+# Version: 201406181850
 # Title: Wiltteri
 # Description: Finnish supplement list for EasyList
-# Last modified: 26 May 2014 13:20 UTC
+# Last modified: 18 Jun 2014 18:50 UTC
 : Expires=4
 # Homepage: wiltteri.net/
 # License: unlicense.org/
@@ -258,6 +258,8 @@ msFilterList
 -d eastway-event.fi /vag/banner/
 -d eat.fi /vartti/
 -d ecross.fi /*files/imagemanagermodule/@random
+-d eivmp.com /images/*banneri
+-d eivmp.com /images/mainos
 -d ekoenergia.fi /bannerit/
 -d ekokompassi.fi /kuvat/ala_logot.gif
 -d elamalapselle.fi /banner/
@@ -666,6 +668,7 @@ msFilterList
 -d kivijarvi.fi /images/vkivi.jpg
 -d klassinen.fi /tiedostot/banneri/
 -d klassinen.fi /img/rondolehti.jpg
+-d klikkaaja.net /promo/
 -d klikki.com
 -d kmvlehti.fi /alma_init_cjs.js
 -d kmvlehti.fi /meedio_kmv_lehti.js
@@ -1015,6 +1018,7 @@ msFilterList
 -d otavafiles.fi /ilmoitus_bg.
 -d otavafiles.fi /matkalaukku/nostot/
 -d oty.fi /images/banners/
+-d oululehti.fi /edoris?
 -d oulunkarpat.fi /20*/bannerit/
 -d ouluthisweek.net /banners/
 -d overdrive.fi /bannerit/
@@ -1764,6 +1768,7 @@ msFilterList
 -d aller.fi /banner/
 -d almamedia.fi /mp/
 -d autotalli.com /externalquicksearch?
+-d autotalli.com /html_multibanner/
 -d autotalli.com /htmlbanners/
 -d bmm.fi
 -d cromet.fi /commercials/
