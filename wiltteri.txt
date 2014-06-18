@@ -1,10 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: MV6PBKN1U4x/81MzFfHjkQ
-! Version: 201406181850
+! Checksum: cjjvBtcTWxJMQN048ut3ng
+! Version: 201406181900
 ! Title: Wiltteri
 ! Description: Finnish supplement list for EasyList
-! Redirect: https://raw.githubusercontent.com/wiltteri/wiltteri.txt/master/wiltteri.txt
-! Last modified: 18 Jun 2014 18:50 UTC
+! Last modified: 18 Jun 2014 19:00 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://wiltteri.net/
 ! License: http://unlicense.org/
@@ -3233,7 +3232,7 @@ suisto.fi##div > table[border="0"]
 savonkinot.fi##div a > img
 lumiparkki.fi##div ul.xoxo > li.widget.widget_sp_image
 alypaa.com##div:first-child:last-child > div:first-child + div:last-child > a
-aarre.fi,devilskuopio.fi,edukouvola.fi,fin5.fi,kalottjazzblues.net,lakiwiki.fi,lehtiapaja.fi,luontotupa.net,metsavetoomus.fi,orivedenponnistus.fi,outokummunkaupunki.fi,pelaa.org,ramasa.net,vantaalla.info,vapaatohjelmat.fi##div[align="center"]
+devilskuopio.fi,edukouvola.fi,fin5.fi,kalottjazzblues.net,lakiwiki.fi,lehtiapaja.fi,luontotupa.net,metsavetoomus.fi,orivedenponnistus.fi,outokummunkaupunki.fi,pelaa.org,ramasa.net,vantaalla.info,vapaatohjelmat.fi##div[align="center"]
 teatterihelsinki.fi##div[align="center"] + * + * + * + * + * + p
 goldenring.fi##div[align="center"] + * > p
 helsinginkisaveikot.fi##div[align="center"] + * img

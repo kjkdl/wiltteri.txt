@@ -1,8 +1,8 @@
 msFilterList
-# Version: 201406181850
+# Version: 201406181900
 # Title: Wiltteri
 # Description: Finnish supplement list for EasyList
-# Last modified: 18 Jun 2014 18:50 UTC
+# Last modified: 18 Jun 2014 19:00 UTC
 : Expires=4
 # Homepage: wiltteri.net/
 # License: unlicense.org/
