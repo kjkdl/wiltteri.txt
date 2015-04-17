@@ -1706,6 +1706,7 @@ _mainosnappi.
 ||veikkausliiga.com^*/veikkausliiga_sponsors_
 ||veikkaussivut.com/uploads/layout/kolikkopelit.jpg
 ||veikkaussivut.com^*/Bannerimainos-kuvat/
+||velosport.fi/uploads/images/bannerit/velosport.gif
 ||venemaailma.fi/data/bannerit/
 ||venepalsta.com/bannerit/
 ||veripalvelu.fi/uploads/Image/bannerit/
