@@ -1,14 +1,15 @@
 msFilterList
-# Version: 201504171031
+# Version: 201504171358
 # Title: Wiltteri
 # Description: Finnish supplement list for EasyList
-# Last modified: 17 Apr 2015 10:31 UTC
+# Last modified: 17 Apr 2015 13:58 UTC
 : Expires=4
 # Homepage: https://github.com/wiltteri/
 # License: unlicense.org/
 #
 # -------------------- general-block.txt -------------------- !
 - /mainokset.
+- /mainokset/*
 - /mainokset_
 - /mainos.
 - /mainos/*
@@ -17,6 +18,7 @@ msFilterList
 - /mainosbanneri/*
 - /mainosbanneri_
 - /mainosbannerit.
+- /mainosbannerit/*
 - /mainosbannerit_
 - /mainoskaruselli.
 - /mainoskaruselli/*
@@ -1806,6 +1808,7 @@ msFilterList
 -d snstatic.fi /sanoma_bt.js
 -d tiede.fi /uutisboksi/
 # -------------------- whitelist-block.txt -------------------- !
++d www.op.fi /mainokset/
 +d eas.almamedia.fi /crossdomain.xml
 +d feissarimokat.com /advertisement.js
 +d moontv.fi /bannerit/fb_banneri.jpg

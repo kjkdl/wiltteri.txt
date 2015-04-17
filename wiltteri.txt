@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: I9plzbNRkbusR5aCB0RZlg
-! Version: 201504171031
+! Checksum: kI2GnvmKG1FNmmgJ4lyh7Q
+! Version: 201504171358
 ! Title: Wiltteri
 ! Description: Finnish supplement list for EasyList
 ! Redirect: https://raw.githubusercontent.com/wiltteri/subscriptions/master/wiltteri.txt
-! Last modified: 17 Apr 2015 10:31 UTC
+! Last modified: 17 Apr 2015 13:58 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/wiltteri/
 ! License: http://unlicense.org/
 !
 ! -------------------- general-block.txt -------------------- !
 /mainokset.
-/mainokset/*$domain=~hansainfo.fi|~op.fi
+/mainokset/*
 /mainokset_
 /mainos.
 /mainos/*
@@ -20,7 +20,7 @@
 /mainosbanneri/*
 /mainosbanneri_
 /mainosbannerit.
-/mainosbannerit/*$domain=~vr.fi
+/mainosbannerit/*
 /mainosbannerit_
 /mainoskaruselli.
 /mainoskaruselli/*
@@ -3985,6 +3985,7 @@ seksitreffit.fi##table[width="1024"][bgcolor="#d31517"]
 ||snstatic.fi^*/sanoma_bt.js
 ||tiede.fi/uutisboksi/$subdocument
 ! -------------------- whitelist-block.txt -------------------- !
+@@||www.op.fi^*/mainokset/
 @@||eas.almamedia.fi/crossdomain.xml
 @@||emediate.eu/eas?target=$domain=ess.fi
 @@||emediate.se/EAS_tag.1.0.js$domain=ess.fi
@@ -4011,12 +4012,9 @@ seksitreffit.fi##table[width="1024"][bgcolor="#d31517"]
 @@||aka-cdn-ns.adtech.de/apps/$object-subrequest,domain=groovefm.fi|hs.fi|iltasanomat.fi|istv.fi|jimtv.fi|livtv.fi|loop.fi|metrohelsinki.fi|nelonen.fi|nelonenpro.fi|nyt.fi|radioaalto.fi|radiorock.fi|radiosuomipop.fi|ruokala.net|ruutu.fi
 @@||gatling.nelonenmedia.fi^*/logo/$object-subrequest,domain=groovefm.fi|hs.fi|iltasanomat.fi|istv.fi|jimtv.fi|livtv.fi|loop.fi|metrohelsinki.fi|nelonen.fi|nelonenpro.fi|nyt.fi|radioaalto.fi|radiorock.fi|radiosuomipop.fi|ruokala.net|ruutu.fi
 ! -------------------- whitelist-hide.txt -------------------- !
-autot.oikotie.fi#@##ad-header
-download.fi,puhelinvertailu.com#@##ad-top-banner-placeholder
-ylilauta.org#@##ad_bottom
+tilannehuone.fi#@#.mainos
+lamminveto.com#@#.sponsorit
+! EasyList fixes
+download.fi#@##ad-top-banner-placeholder
 ylilauta.org#@##hideads
 hervannansanomat.fi#@#.ads-left
-tilannehuone.fi#@#.mainos
-elisaviihde.fi#@#.outside_ad
-lamminveto.com#@#.sponsorit
-valonpolku.com#@#a[href*="/adrotate/adrotate-out.php?"]
