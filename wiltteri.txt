@@ -1,14 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: cjjvBtcTWxJMQN048ut3ng
-! Version: 201406181900
+! Checksum: Vhbbn7TZG2gxInyL4aG/+Q
+! Version: 201504171024
 ! Title: Wiltteri
 ! Description: Finnish supplement list for EasyList
-! Last modified: 18 Jun 2014 19:00 UTC
+! Redirect: https://raw.github.com/wiltteri/subscriptions/master/wiltteri.txt
+! Last modified: 17 Apr 2015 10:24 UTC
 ! Expires: 4 days (update frequency)
-! Homepage: http://wiltteri.net/
+! Homepage: https://github.com/wiltteri/
 ! License: http://unlicense.org/
 !
-! -------------------- wiltteri-general-block.txt ------------------- !
+! -------------------- general-block.txt -------------------- !
 /mainokset.
 /mainokset/*$domain=~hansainfo.fi|~op.fi
 /mainokset_
@@ -35,7 +36,7 @@
 /yhteistyossa_
 _mainos.
 _mainosnappi.
-! -------------------- wiltteri-general-hide.txt -------------------- !
+! -------------------- general-hide.txt -------------------- !
 ###keskimainos
 ###mainokset
 ###mainokset_oikea
@@ -74,7 +75,7 @@ _mainosnappi.
 ##.yhteistyossa
 ##.ylamainokset
 ##.ylamainos
-! -------------------- wiltteri-specific-block.txt ------------------ !
+! -------------------- specific-block.txt -------------------- !
 |http://194.204.55.179/absolutebm/banners/
 |http://87.108.55.22/ads/
 |http://kuvaton.com/jouluarvonta2012.gif
@@ -1802,7 +1803,7 @@ _mainosnappi.
 ||ytk-yhdistys.fi/kuvat/YTK-Y-banner.gif
 ||yyteribeachfutis.fi/img/*banner
 ||yyteribeachfutis.fi/upload/bannerit/
-! -------------------- wiltteri-specific-hide.txt ------------------- !
+! -------------------- specific-hide.txt -------------------- !
 warrantti.org###Adds
 kamppi.fi###Advert
 ort.fi###BannersLeft
@@ -3195,7 +3196,7 @@ vantaan-a-kilta.fi##br + * + * + br + img
 makkari.fi##br + * + * > img
 rockmodels.fi##br + * + center
 jarvilohi.net##br + * td
-chilikauppa.fi,mopo-osa.com##br + * td > a > img
+mopo-osa.com##br + * td > a > img
 fcinter.com,jarviseutu.fi,kotitapaturma.fi,kyyla.org,laplandsafaris.fi,lestadiolaisuus.info,seutuneloset.fi,vihreateatteri.net##br + a > img
 tackla.fi##br + br + * > img
 kaukoretket.fi,lappeenrannanteatteri.fi,matkarasti.fi,olympia.fi,sankarit.fi##br + br + a > img
@@ -3891,7 +3892,6 @@ mustapippuri.fi,pudottajat.fi,terkkari.fi,tohtori.fi##ul#footer-row2
 metropoli.net##ul#menu-top-menu
 tallukka.fi##ul.fpbanners img
 como.fi,episodi.fi,inferno.fi,popmedia.fi,rumba.fi,rytmi.com##ul.pro15
-! -------------------- wiltteri-adult-block.txt --------------------- !
 ||adults.fi/ads/
 ||adults.fi^*/homoseksi.jpg
 ||adulttv.fi/images/kuvat/$domain=livechat.fi
@@ -3914,7 +3914,6 @@ como.fi,episodi.fi,inferno.fi,popmedia.fi,rumba.fi,rytmi.com##ul.pro15
 ||sexwork.net/click/
 ||top100.valmiskauppa.fi/images/kuvat/$domain=livechat.fi
 ||turunerotiikkamessut.com^*/yhteistyo/$image
-! -------------------- wiltteri-adult-hide.txt ---------------------- !
 turunerotiikkamessut.com###block-views-yhteisty-kumppanit-block
 porno-videot.com###footer img
 livechat.fi###frontrow
@@ -3931,11 +3930,10 @@ alastonsuomi.com##.sb
 seksitreffit.org##center:first-of-type
 seksitreffit.org##h3 + * + center
 seksitreffit.fi##table[width="1024"][bgcolor="#d31517"]
-! -------------------- wiltteri-adult-thirdparty.txt ---------------- !
 ||87.94.164.91^$domain=alastonsuomi.com
 ||seksikamera.fi/modelsonline.php$subdocument
 ||seksitreffit.com/mainosmokkula/$subdocument
-! -------------------- wiltteri-thirdparty.txt ---------------------- !
+! -------------------- thirdparty.txt -------------------- !
 ||81.209.1.241^$subdocument
 ||adservicemedia.dk^$third-party
 ||afterdawn.com/edukas_nosto_$subdocument,third-party
@@ -3986,7 +3984,7 @@ seksitreffit.fi##table[width="1024"][bgcolor="#d31517"]
 ||snstatic.fi^*/ads/
 ||snstatic.fi^*/sanoma_bt.js
 ||tiede.fi/uutisboksi/$subdocument
-! -------------------- wiltteri-whitelist-block.txt ----------------- !
+! -------------------- whitelist-block.txt -------------------- !
 @@||eas.almamedia.fi/crossdomain.xml
 @@||emediate.eu/eas?target=$domain=ess.fi
 @@||emediate.se/EAS_tag.1.0.js$domain=ess.fi
@@ -4012,7 +4010,7 @@ seksitreffit.fi##table[width="1024"][bgcolor="#d31517"]
 @@||adtech.de/?advideo/3.0/*//cc=2;vidAS=pre_roll;$object-subrequest,domain=groovefm.fi|hs.fi|iltasanomat.fi|istv.fi|jimtv.fi|livtv.fi|loop.fi|metrohelsinki.fi|nelonen.fi|nelonenpro.fi|nyt.fi|radioaalto.fi|radiorock.fi|radiosuomipop.fi|ruokala.net|ruutu.fi
 @@||aka-cdn-ns.adtech.de/apps/$object-subrequest,domain=groovefm.fi|hs.fi|iltasanomat.fi|istv.fi|jimtv.fi|livtv.fi|loop.fi|metrohelsinki.fi|nelonen.fi|nelonenpro.fi|nyt.fi|radioaalto.fi|radiorock.fi|radiosuomipop.fi|ruokala.net|ruutu.fi
 @@||gatling.nelonenmedia.fi^*/logo/$object-subrequest,domain=groovefm.fi|hs.fi|iltasanomat.fi|istv.fi|jimtv.fi|livtv.fi|loop.fi|metrohelsinki.fi|nelonen.fi|nelonenpro.fi|nyt.fi|radioaalto.fi|radiorock.fi|radiosuomipop.fi|ruokala.net|ruutu.fi
-! -------------------- wiltteri-whitelist-hide.txt ------------------ !
+! -------------------- whitelist-hide.txt -------------------- !
 autot.oikotie.fi#@##ad-header
 download.fi,puhelinvertailu.com#@##ad-top-banner-placeholder
 ylilauta.org#@##ad_bottom

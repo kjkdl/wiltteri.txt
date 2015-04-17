@@ -1,13 +1,13 @@
 msFilterList
-# Version: 201406181900
+# Version: 201504171024
 # Title: Wiltteri
 # Description: Finnish supplement list for EasyList
-# Last modified: 18 Jun 2014 19:00 UTC
+# Last modified: 17 Apr 2015 10:24 UTC
 : Expires=4
-# Homepage: wiltteri.net/
+# Homepage: https://github.com/wiltteri/
 # License: unlicense.org/
 #
-# -------------------- wiltteri-general-block.txt ------------------- !
+# -------------------- general-block.txt -------------------- !
 - /mainokset.
 - /mainokset_
 - /mainos.
@@ -32,7 +32,7 @@ msFilterList
 - /yhteistyossa_
 - _mainos.
 - _mainosnappi.
-# -------------------- wiltteri-specific-block.txt ------------------ !
+# -------------------- specific-block.txt -------------------- !
 -d 194.204.55.179 /absolutebm/banners/
 -d 87.108.55.22 /ads/
 -d kuvaton.com /jouluarvonta2012.gif
@@ -1739,7 +1739,6 @@ msFilterList
 -d ytk-yhdistys.fi /kuvat/YTK-Y-banner.gif
 -d yyteribeachfutis.fi /img/*banner
 -d yyteribeachfutis.fi /upload/bannerit/
-# -------------------- wiltteri-adult-block.txt --------------------- !
 -d adults.fi /ads/
 -d adults.fi /homoseksi.jpg
 -d finswingers.com /img/logos/
@@ -1759,10 +1758,9 @@ msFilterList
 -d seksitreffit.fi /treffit/kuvat/*_banner
 -d seksitreffit.org /button-
 -d sexwork.net /click/
-# -------------------- wiltteri-adult-thirdparty.txt ---------------- !
 -d seksikamera.fi /modelsonline.php
 -d seksitreffit.com /mainosmokkula/
-# -------------------- wiltteri-thirdparty.txt ---------------------- !
+# -------------------- thirdparty.txt -------------------- !
 -d 81.209.1.241
 -d adservicemedia.dk
 -d aller.fi /banner/
@@ -1807,7 +1805,7 @@ msFilterList
 -d snstatic.fi /ads/
 -d snstatic.fi /sanoma_bt.js
 -d tiede.fi /uutisboksi/
-# -------------------- wiltteri-whitelist-block.txt ----------------- !
+# -------------------- whitelist-block.txt -------------------- !
 +d eas.almamedia.fi /crossdomain.xml
 +d feissarimokat.com /advertisement.js
 +d moontv.fi /bannerit/fb_banneri.jpg
