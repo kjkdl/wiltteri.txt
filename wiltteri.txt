@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: Vhbbn7TZG2gxInyL4aG/+Q
-! Version: 201504171024
+! Checksum: I9plzbNRkbusR5aCB0RZlg
+! Version: 201504171031
 ! Title: Wiltteri
 ! Description: Finnish supplement list for EasyList
-! Redirect: https://raw.github.com/wiltteri/subscriptions/master/wiltteri.txt
-! Last modified: 17 Apr 2015 10:24 UTC
+! Redirect: https://raw.githubusercontent.com/wiltteri/subscriptions/master/wiltteri.txt
+! Last modified: 17 Apr 2015 10:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/wiltteri/
 ! License: http://unlicense.org/
